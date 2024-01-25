@@ -4,3 +4,10 @@
     margin: 0;
     font-family: 'Roboto';
 }
+
+:root {
+    --negro_spotify: rgb(14, 14, 14);
+    --blanco_texto: white;
+    --azul_spotify: #529cf1;
+    --verde_spotify: #26b758;
+}

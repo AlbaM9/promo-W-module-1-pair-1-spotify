@@ -1,24 +1,28 @@
+
 .header {
-    background-color: rgb(14, 14, 14);
+    background-color: var(--negro_spotify);
+    display: flex;
+    justify-content: space-between;
    }
 
 .logo_spotify {
-    width: 100px;
+    height: 50px;
     padding: 10px; 
+    display: flex;
 }
 
 .nav_menu {
-    display: inline-block;
-    width: 85%;
-    padding: 10px;
-    padding-left: 80px;
-/*     
-    background-color: blue; */
+    display: flex;
+}
 
-    
+.icono_menu {
+    height: 50px;
+    padding: 10px;
+    display: flex;
 
 }
 
+/* 
 .nav_menu ul li {
     color: white;
     display: inline-block;    
@@ -28,4 +32,39 @@
     color: white;
     text-decoration: none;
     padding: 10px;
+} */
+
+.section_1 {
+    background-color: var(--azul_spotify);
+    color: var(--blanco_texto);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.section_1 h1{
+    font-size: 36px;
+
+
+}
+
+.section_1 h2{
+    font-size: 20px;
+}
+
+.section_1 p{
+
+}
+
+.section_1 a {
+    background-color:var(--verde_spotify);
+    border: 1px solid var(--verde_spotify);
+    border-radius: 40px;
+    padding: 10px 80px;
+    color: var(--blanco_texto);
+    text-decoration: none;
 }
