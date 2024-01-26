@@ -92,6 +92,7 @@ main {
 
 
 
+
 }
 
 .section_2 div {
@@ -99,9 +100,7 @@ main {
 
     background-color: blue;
     /*justify-content: right;*/
-    width: 70%;
-
-
+    width: 70vw;
 }
 
 .section_2 section {
@@ -109,13 +108,10 @@ main {
     display: flex;
     flex-direction: row;
     width: 100vw;
-
-
-
 }
 
 .benefit_icons {
-    width: 30%;
+    width: 15vw;
 
 
 
