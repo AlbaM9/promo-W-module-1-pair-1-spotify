@@ -45,6 +45,7 @@
     height: 50px;
     padding: 10px;
     display: flex;
+    padding-right: 20px;
 
 }
 
@@ -160,6 +161,16 @@ main {
     color: var(--blanco_texto);
     padding: 15px;
 }
+
+
+.footer_nav {
+    display: flex;
+    flex-direction: column;
+    // padding-top: 20px;
+    justify-content: end;
+
+}
+
 
 .footer_nav ul {
     display: flex;
