@@ -161,6 +161,11 @@ main {
     padding: 15px;
 }
 
+.footer_nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
 .footer_nav ul {
     display: flex;
     gap: 20px;
