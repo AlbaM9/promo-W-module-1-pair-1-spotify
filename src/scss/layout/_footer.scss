@@ -1,8 +1,46 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer {
+  background-color: $black_spotify;
+  display: flex;
+  justify-content: space-between;
+  color: $text_white;
+  padding: 15px;
+
+  &_nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    & ul {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+
+    }
+
+    & a {
+      text-decoration: none;
+      color: $footer_text;
+      font-size: 12px;
+    }
+  }
+
+  &__legal {
+    color: $footer_text;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    & div {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      gap: 10px
+    }
+  }
+}
+
+.logo-españa img {
+  width: 20px;
+
 }

@@ -1,5 +1,40 @@
-.page__header {
+.header {
+  background-color: $black_spotify;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+
 }
+
+.logo_spotify {
+  height: 50px;
+  padding: 10px;
+  display: flex;
+}
+
+.nav_menu {
+  display: flex;
+}
+
+
+.icono_menu {
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  padding-right: 20px;
+
+}
+
+/* 
+.nav_menu ul li {
+    color: white;
+    display: inline-block;    
+}
+
+.nav_menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+} */
