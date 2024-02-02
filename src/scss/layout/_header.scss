@@ -16,6 +16,10 @@
 
 .nav_menu {
   display: flex;
+
+  & ul {
+    display: none;
+  }
 }
 
 
@@ -27,14 +31,29 @@
 
 }
 
-/* 
-.nav_menu ul li {
-    color: white;
-    display: inline-block;    
-}
+@media all and (min-width: 480px) {
+  .icono_menu {
+    display: none;
+  }
 
-.nav_menu ul li a {
-    color: white;
-    text-decoration: none;
+  .nav_menu ul {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+
+    & li {
+      color: white;
+
+      & a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+      }
+    }
+  }
+  .header {
     padding: 10px;
-} */
+  }
+}
