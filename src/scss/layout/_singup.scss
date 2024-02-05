@@ -1,17 +1,17 @@
-.section-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 form {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-input label {
-    display: block;
+.nacimiento {
+    display: flex;
 }
 
+.genero {
+    display: flex;
+}
+
+.day, .month, .year {
+    display: flex;
+    flex-direction: column;
+}
