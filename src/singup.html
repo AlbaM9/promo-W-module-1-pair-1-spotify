@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./scss/layout/_singup.scss" />
+  </head>
+  <body>
+    <header>
+      <figure>
+        <img src="/public/images/logo.png" alt="" />
+      </figure>
+    </header>
+    <main>
+      <section>
+        <h2></h2>
+        <div></div>
+        <div></div>
+      </section>
+      <section class="section-form">
+        <form action="https://dev.adalab.es/api/form">
+          <h3>Registrarte con tu correo electrónico</h3>
+          <label for="email">¿Cuál es tu correo electrónico?</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Pon tu correo electrónico."
+            required
+          />
+          <label for="confirma">Confirma el correo electrónico</label>
+          <input
+            type="email"
+            name="confirma"
+            id="confirma"
+            placeholder="Vuelve a poner tu correo electrónico."
+            required
+          />
+          <label for="password">Crea una contraseña</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Crea una contraseña."
+            required
+          />
+          <label for="name">¿Cómo quieres que te llamemos?</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Pon un nombre de perfil."
+            required
+          />
+          <span>Esto aparece en tu perfil.</span>
+          <div class="nacimiento">
+            <span>¿Cuál es tu fecha de nacimiento?</span>
+            <label for="day">Día</label>
+            <input
+              type="number"
+              id="day"
+              name="id"
+              min="1"
+              max="31"
+              placeholder="DD"
+              required
+            />
+            <label for="month">Mes</label>
+            <select name="month" id="month" required>
+              <option value="">Mes</option>
+              <option value="ene">Enero</option>
+              <option value="feb">Febrero</option>
+              <option value="mar">Marzo</option>
+              <option value="abr">Abril</option>
+              <option value="may">Mayo</option>
+              <option value="jun">Junio</option>
+              <option value="jul">Julio</option>
+              <option value="ago">Agosto</option>
+              <option value="sep">Septiembre</option>
+              <option value="oct">Octubre</option>
+              <option value="nov">Noviembre</option>
+              <option value="dic">Diciembre</option>
+            </select>
+
+            <label for="year">Año</label>
+            <input
+              type="number"
+              name="year"
+              id="year"
+              placeholder="AAAA"
+              min="1915"
+              max="2006"
+              required
+            />
+          </div>
+
+          <span>¿Cuál es tu género?</span>
+          <input
+            type="radio"
+            name="gender"
+            id="gender-man"
+            value="gender-man"
+            required
+          />
+          <label for="gender-man">Hombre</label>
+          <input
+            type="radio"
+            name="gender"
+            id="gender-woman"
+            value="gender-woman"
+          />
+          <label for="gender-woman">Mujer</label>
+          <input
+            type="radio"
+            name="gender"
+            id="gender-nonbinary"
+            value="gender-nonbinary"
+          />
+          <label for="gender-nonbinary">No binario</label>
+          <input type="checkbox" name="news" id="news" value="news-yes" />
+          <label for="news"
+            >Quiero que me enviéis novedades y ofertas de Spotify</label
+          >
+          <input
+            type="checkbox"
+            name="privacy"
+            id="privacy"
+            value="privacy-no"
+          />
+          <label for="privacy"
+            >Compartir mis datos de registro con los proveedores de contenidos
+            de Spotify para fines de marketing. Ten en cuenta que tus datos
+            pueden ser transferidos a un país de fuera del EEE, tal y como se
+            recoge en nuestra política de privacidad.</label
+          >
+          <input type="submit" value="Registrarte" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
